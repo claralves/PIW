@@ -3,7 +3,7 @@ import './App.css';
 // import { Supermercado, Legume, Fruta, Bebida } from './component/05Children';
 // import * as PC from './atividades/atividade01/02MeuPC'
 // import * as Batalha from './atividades/atividade01/03Batalha'
-import FuncaoA from './component/06Contexto/FuncaoA';
+import ComponenteAvo from './atividades/atividade02/questao02/ComponenteAvo';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
     //   </Batalha.World>
     // </div>
 
-    <FuncaoA />
+    <ComponenteAvo />
   )
 }
 
