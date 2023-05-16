@@ -1,0 +1,10 @@
+PROPS DRILLING se trata de um "excesso/vazamento de props" quando se precisar compartilhar muitas informações 
+entre pais, filhos e adiante, o que torna o código bem mais difícil de trabalhar e manter, por conta da necessidade de 
+atualizações/mudanças realizadas no código. 
+
+Os contextos servem como uma funcionalidade do React que permite o compartilhamente de informações sem necessariamente 
+passá-los através de propriedades. O compartilhamento se dá através de um componente pai que compartilha as informações 
+com os outros, seus filhos.
+
+Exemplo: Temos uma interface onde queremos compartilhar a mesma cor de fonte entre todos, logo, para não ser utilizados 
+diversos props. Logo, criando um contexto de corTema, a informação será repassada entre os filhos/componentes.

@@ -3,7 +3,10 @@ import './App.css';
 // import { Supermercado, Legume, Fruta, Bebida } from './component/05Children';
 // import * as PC from './atividades/atividade01/02MeuPC'
 // import * as Batalha from './atividades/atividade01/03Batalha'
-import ComponenteAvo from './atividades/atividade02/questao02/ComponenteAvo';
+// import { Questao01X } from './prova/Questao01';
+import Diglett from './prova/Questao02';
+// import Questao01X from './prova/Questao01';
+// import Questao03 from './prova/Questao03';
 
 function App() {
   return (
@@ -39,7 +42,9 @@ function App() {
     //   </Batalha.World>
     // </div>
 
-    <ComponenteAvo />
+   <Diglett/>
+    // <Questao01X/>
+    // <Questao03/>
   )
 }
 
